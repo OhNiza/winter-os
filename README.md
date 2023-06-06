@@ -1,4 +1,4 @@
-# Starting point
+# winter-os
 
 [![build-ublue](https://github.com/ohniza/winter-os/actions/workflows/build.yml/badge.svg)](https://github.com/ohniza/winter-os/actions/workflows/build.yml)
 
