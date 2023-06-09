@@ -95,3 +95,33 @@ firstboot:
     - com.spotify.Client
     - io.github.mimbrero.WhatsAppDesktop
     - org.freedesktop.Platform.ffmpeg-full
+    - org.mozilla.firefox
+    - us.zoom.Zoom
+    - org.qbittorrent.qBittorrent
+    - flathub com.protonvpn.www
+    - com.github.micahflee.torbrowser-launcher
+    - org.fedoraproject.MediaWriter
+    - org.prismlauncher.PrismLauncher
+    - org.kde.kdenlive
+    - md.obsidian.Obsidian
+    - com.google.AndroidStudio
+    - tv.kodi.Kodi
+    - org.flameshot.Flameshot
+    - org.kde.isoimagewriter
+    - fr.romainvigier.MetadataCleaner
+    - com.github.jeromerobert.pdfarranger
+    - com.jetbrains.IntelliJ-IDEA-Community
+    - org.kde.filelight
+    - com.github.johnfactotum.Foliate
+    - org.bleachbit.BleachBit
+    - com.system76.Popsicle
+    - org.godotengine.Godot
+    - com.github.jkotra.eovpn
+    - app.drey.Dialect
+    - dev.geopjr.Collision
+    - me.hyliu.fluentreader
+    - dev.lapce.lapce
+    - com.helix_editor.Helix
+    - com.redis.RedisInsight
+    - com.mongodb.Compass
+    - network.loki.Session
