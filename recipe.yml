@@ -4,7 +4,7 @@
 name: winter-os
 # The native container image to build on top of.
 # Warning: Non-uBlue images might not work properly, due to missing components.
-base-image: ghcr.io/ublue-os/kinoite-nvidia
+base-image: ghcr.io/ublue-os/kinoite
 # What Fedora version to use. Use an explicit version or `latest`.
 # If you use `latest`, you will be automatically updated to the next major
 # Fedora version, assuming the image you're using as your base container
@@ -41,7 +41,7 @@ rpm:
   # which greatly simplifies future maintenance of your custom recipe.
   repos:
   # Example (which also demonstrates version number expansion):
-  - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
+  #- https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
 
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
@@ -56,9 +56,6 @@ rpm:
     # - tilix
     - zsh
     - distrobox
-    - zoxide
-    - code
-    - starship
   remove:
     # Remove the native firefox (from Fedora) in favor of the Flatpak.
     - firefox
