@@ -123,3 +123,4 @@ firstboot:
     - com.redis.RedisInsight
     - com.mongodb.Compass
     - network.loki.Session
+    - io.github.shiftey.Desktop
