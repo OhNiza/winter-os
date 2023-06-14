@@ -31,7 +31,6 @@ scripts:
     - autorun.sh
     # Manually listed scripts.
     # - example_post.sh
-    - nix_fleek_install.sh
 # Custom RPM configuration.
 # These changes will be integrated into your custom image at the "system level".
 rpm:
@@ -104,7 +103,6 @@ firstboot:
     - org.prismlauncher.PrismLauncher
     - org.kde.kdenlive
     - md.obsidian.Obsidian
-    - com.google.AndroidStudio
     - tv.kodi.Kodi
     - org.flameshot.Flameshot
     - org.kde.isoimagewriter
