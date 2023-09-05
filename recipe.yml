@@ -56,6 +56,7 @@ rpm:
     # - tilix
     - zsh
     - distrobox
+    - neofetch
   remove:
     # Remove the native firefox (from Fedora) in favor of the Flatpak.
     - firefox
@@ -86,41 +87,30 @@ firstboot:
     - com.discordapp.Discord
     - com.jgraph.drawio.desktop
     - com.github.tchx84.Flatseal
-    - org.gramps_project.Gramps
     - com.lunarclient.LunarClient
-    - com.mojang.Minecraft
+    - org.prismlauncher.PrismLauncher
     - io.podman_desktop.PodmanDesktop
     - com.spotify.Client
-    - io.github.mimbrero.WhatsAppDesktop
     - org.freedesktop.Platform.ffmpeg-full
     - org.mozilla.firefox
     - us.zoom.Zoom
-    - org.qbittorrent.qBittorrent
+    - org.kde.ktorrent
     - com.protonvpn.www
     - com.github.micahflee.torbrowser-launcher
     - org.fedoraproject.MediaWriter
-    - org.prismlauncher.PrismLauncher
     - org.kde.kdenlive
     - md.obsidian.Obsidian
     - tv.kodi.Kodi
-    - org.flameshot.Flameshot
     - org.kde.isoimagewriter
     - fr.romainvigier.MetadataCleaner
     - com.github.jeromerobert.pdfarranger
-    - com.jetbrains.IntelliJ-IDEA-Community
-    - org.kde.filelight
+    - org.kde.tellico
     - com.github.johnfactotum.Foliate
     - org.bleachbit.BleachBit
-    - com.system76.Popsicle
-    - org.godotengine.Godot
-    - app.drey.Dialect
     - dev.geopjr.Collision
     - me.hyliu.fluentreader
-    - dev.lapce.lapce
-    - com.helix_editor.Helix
-    - com.redis.RedisInsight
-    - com.mongodb.Compass
     - network.loki.Session
     - io.github.shiftey.Desktop
     - com.heroicgameslauncher.hgl
     - com.wps.Office
+    - io.github.shiftey.Desktop
