@@ -87,7 +87,6 @@ firstboot:
     - com.jgraph.drawio.desktop
     - com.github.tchx84.Flatseal
     - org.gramps_project.Gramps
-    - org.libreoffice.LibreOffice
     - com.lunarclient.LunarClient
     - com.mojang.Minecraft
     - io.podman_desktop.PodmanDesktop
@@ -97,7 +96,7 @@ firstboot:
     - org.mozilla.firefox
     - us.zoom.Zoom
     - org.qbittorrent.qBittorrent
-    - flathub com.protonvpn.www
+    - com.protonvpn.www
     - com.github.micahflee.torbrowser-launcher
     - org.fedoraproject.MediaWriter
     - org.prismlauncher.PrismLauncher
