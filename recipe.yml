@@ -11,7 +11,7 @@ base-image: ghcr.io/ublue-os/kinoite-main
 # builds with the tag (all uBlue images do this).
 fedora-version: 38
 # This description will be visible in the container metadata.
-description: My Custom Kinoite OS
+description: A Custom Operating System for my main machine.
 # These scripts will be executed during the container build.
 # Place scripts in the "scripts/" dir and put the corresponding filenames here.
 # Any files that aren't listed here won't be executed automatically, which
@@ -113,7 +113,6 @@ firstboot:
     - org.bleachbit.BleachBit
     - com.system76.Popsicle
     - org.godotengine.Godot
-    - com.github.jkotra.eovpn
     - app.drey.Dialect
     - dev.geopjr.Collision
     - me.hyliu.fluentreader
@@ -123,3 +122,5 @@ firstboot:
     - com.mongodb.Compass
     - network.loki.Session
     - io.github.shiftey.Desktop
+    - com.heroicgameslauncher.hgl
+    - com.wps.Office
